@@ -3,7 +3,7 @@ import random
 import json
 
 import torch
-import sys
+from sys import argv
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
@@ -82,11 +82,7 @@ model.eval()
 
 
 def predict(question):
-    question.pop(0)
-    sentence = question[0]
-    question.pop(0)
-    for char in question:
-        sentence += " "+  char
+    sentence = question.lower()
 
     sentence = tokenize(sentence)
     X = bag_of_words(sentence, all_words)
@@ -110,5 +106,4 @@ def predict(question):
 
 
 ## for testing purposes
-args = sys.argv
-print(predict(args))
+print(predict(argv[1]))
