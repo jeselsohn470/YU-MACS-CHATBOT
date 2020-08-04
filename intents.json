@@ -16,12 +16,17 @@
         },
         {"tag": "SAT",
          "patterns": ["What SAT/ACT score do I need to apply to YU for regular admission? What about honors?", "SAT score", "ACT scores", "SAT", "ACT"],
-         "responses": ["We are looking for a 1170 on the SAT or a 24 on the ACT for regular admission. For honors admission, while we have no specific cut-off, the average (superscored) test scores in our most recent cohort- 1460 on the SAT and 32 on the ACT.\nCOVID- As of now, all prospective students applying for Spring or Fall 2021 must submit SAT/ACT scores. The  health and safety of our prospective students is important to us and we will continue to monitor the situation. If policy is changed or updated, we will update the YU website"],
+         "responses": ["We are looking for a 1170 on the SAT or a 24 on the ACT for regular admission. For honors admission, while we have no specific cut-off, the average (superscored) test scores in our most recent cohort- 1460 on the SAT and 32 on the ACT.\nCOVID- Yeshiva University has always taken a holistic approach when considering applicants for admission. We request and carefully review all the information, academic, and social, that is submitted to us by students and their schools. Grades and standardized tests along with extra-curricular activities, community involvement and the personal interview all support our efforts to get to know each applicant and come to a decision based on the understanding that we want our students to succeed at YU. As a result of the challenges students face in fulfilling the requirement of submitting standardized test scores due to Covid-19, Yeshiva University will adopt a one year test optional policy for 2021 high school graduates applying to university. This will be true for both general admission and honors applicants. Details related to additional information or input on each applicant will be posted along with the new admission application mid-summer. Our emphasis on the whole student as well as our commitment to the student’s success remains unchanged. We welcome any questions you may have regarding this or any other admissions related topic."],
          "context_set": ""
         },
         {"tag": "superscore",
          "patterns": [" Do you superscore for admissions?", "superscore", "super score"],
-         "responses": ["We do not superscore for general admissions. We do superscore for honors. "],
+         "responses": ["We do not superscore for general admissions. We do superscore for honors.\nCOVID- ​We will not be superscoring this year due to our temporary change in testing policy. If an applicant does happen to have SAT/ACT scores though, we’d be more than happy to look at them as a way to boost their candidacy."],
+         "context_set": ""
+        },
+        {"tag": "evaluation",
+         "patterns": ["Now that test scores are optional, how do you plan to evaluate students?", "evaluatr students", "how will you evaluate students"],
+         "responses": ["While test scores are important, we take a holistic approach when evaluating an applicant. We will put a much heaver emphasis this year on extra curricular activities, leadership posts they hold, and their transcripts and the type of course they're applying themselves in. While a resume has been optional in the years past, we strongly recommend this year that every applicant sends one in along with letters of recommendation."],
          "context_set": ""
         },
         {"tag": "interview",
@@ -31,7 +36,7 @@
         },
         {"tag": "recommendation letter",
          "patterns": ["Do I have to submit an activities resume or a letter of recommendation, or are they optional?", "recommendation letter", "activities resume", "resume", "letter of recommendation"],
-         "responses": ["Currently, the activities resume is optional; however, we do recommend submitting it so that we can get to know more about you and your accomplishments.\nWhile all applicants must include the contact information for two personal references in their applications, general freshman applicants in the United States are not required to submit letters of recommendation. However, international, honors, associates, and early admission applicants must submit letters of recommendation through the online application portal."],
+         "responses": ["Currently, the activities resume is optional; however, we do recommend submitting it so that we can get to know more about you and your accomplishments.\nWhile all applicants must include the contact information for two personal references in their applications, general freshman applicants in the United States are not required to submit letters of recommendation. However, international, honors, associates, and early admission applicants must submit letters of recommendation through the online application portal.\nCOVID-​ Students of all types will be required to submit an activities resume and letters of recommendation this year. We want to gain as much insight as possible into the applicant due to test scores being optional this year."],
          "context_set": ""
         },
         {"tag": "additional info",
@@ -86,7 +91,7 @@
         },
 	{"tag": "Spring Open House",
          "patterns": ["Do you have a spring open house", "Is there a spring open house", "Will there be a spring open house", "Do you have an open house in the spring"],
-         "responses": ["We are currently hosting a variety of online events for admitted students- please see [link] to find out more information."],
+         "responses": ["We do not currently have a Spring Open House, but we look forward to hosting a variety of events in the spring for admitted students and high school juniors.\nCOVID- We are currently hosting a variety of online events for admitted students- please see [link] to find out more information."],
          "context_set": ""
         },
 	{"tag": "YU Community Recruiting",
@@ -96,7 +101,7 @@
         },
 	{"tag": "Open House Alternative",
          "patterns": ["If I can’t come to Open House, do I have any other opportunities to visit YU?", "Is there any other time I can visit campus besides for the Open House?", "When can I come to visit YU?"],
-         "responses": ["We are offering virtual online information sessions with an admissions counselor To schedule one, please email us at yuadmit@yu.edu"],
+         "responses": ["Definitely! We host visitors on our Wilf and Beren Campuses nearly every day. Simply fill out this form​ (https://www.yu.edu/admissions/schedule-a-visit) in order to schedule your visit; one of our admissions counselors will be in touch with you.\nCOVID- We are offering virtual online information sessions with an admissions counselor To schedule one, please email us at yuadmit@yu.edu"],
          "context_set": ""
         },
 	{"tag": "Campus Visit Expectations",
@@ -131,12 +136,12 @@
         },
 	{"tag": "Financial Aid Application",
          "patterns": ["At what point in the admissions process do I apply for financial aid?", "When should I apply for financial aid?"],
-         "responses": ["We recommend filling out the FAFSA (Free Application for Federal Student Aid- find it here [insert link]) as soon as possible after it opens nationally on [DATE]]. The form is an important way that the Office of Student Finance determines your financial aid eligibility.  International students who are not a U.S. citizen or permanent resident, you can find the International Student Financial Aid application here [insert link]. We also encourage you to fill out our Private Elementary and Secondary School Tuition Form if there are younger children in your family who attend private day school; we know that that is often a significant expense and make sure to take it into account. Once you have been accepted to Yeshiva University, the Office of Student Finance will evaluate the submitted financial information and use it to determine the financial aid offered. If you have any questions about the financial aid process, you can contact the Office of Student FInance at 212-960-5399 or at studentaid@yu.edu."],
+         "responses": ["We recommend filling out the FAFSA (Free Application for Federal Student Aid- find it here (https://studentaid.gov/h/apply-for-aid/fafsa) as soon as possible after it opens nationally on [DATE]]. The form is an important way that the Office of Student Finance determines your financial aid eligibility.  International students who are not a U.S. citizen or permanent resident, you can find the International Student Financial Aid application here (https://www.yu.edu/sites/default/files/inline-files/2020_21_UG_International_Fanaid_Appl__2.pdf). We also encourage you to fill out our Private Elementary and Secondary School Tuition Form if there are younger children in your family who attend private day school; we know that that is often a significant expense and make sure to take it into account. Once you have been accepted to Yeshiva University, the Office of Student Finance will evaluate the submitted financial information and use it to determine the financial aid offered. If you have any questions about the financial aid process, you can contact the Office of Student FInance at 212-960-5399 or at studentaid@yu.edu."],
          "context_set": ""
         },
 	{"tag": "Financial Aid Recourse",
          "patterns": ["If I require more financial aid than is initially offered to me, do I have any recourse?", "What can I do if I need more financial aid than I'm offered?", "What happens if the financial aid I'm offered isn't enough?"],
-         "responses": ["You can always appeal if you’re not satisfied with your financial aid package; you can contact the Office of Student Finance in order to submit an appeal."],
+         "responses": ["Yes. You can always appeal if you’re not satisfied with your financial aid package; you can contact the Office of Student Finance in order to submit an appeal."],
          "context_set": ""
         },
 	{"tag": "COVID Financial Aid",
@@ -146,12 +151,12 @@
         },
 	{"tag": "Merit Based Scholarships",
          "patterns": ["Are there any merit- based scholarships available besides honors?", "Any scholarships besides honors?", "More scholarship opportunities", "other scholarships except for honors"],
-         "responses": ["We also offer the Dean’s and Straus scholarships to students. A Dean’s award is $7500; Dean’s scholars are eligible to enroll in honors level courses, and invited to attend colloquia for Dean’s students as well as a Dean’s reception each year. We’re looking for students who have a GPA of 90, as well as an SAT score of 1340 or an ACT score of 29.\nThe Straus Scholars Program Award is designed for students who are community leaders in their respective schools and have been able to demonstrate high academic achievement, leadership potential through extra curricular activities, and commitment to studying the great works of the Jewish and Western tradition. Candidates can receive an annual scholarship of up to $25,000, renewable for up to three years on campus in NY. To apply, see the Straus Scholars Program(insert link here) application for more information.\nFor a list of merit-based awards that includes more specialized merit based scholarships which you may qualify for, see here. (insert link)"],
+         "responses": ["We also offer the Dean’s and Straus scholarships to students. A Dean’s award is $7500; Dean’s scholars are eligible to enroll in honors level courses, and invited to attend colloquia for Dean’s students as well as a Dean’s reception each year. We’re looking for students who have a GPA of 90, as well as an SAT score of 1340 or an ACT score of 29.\nCOVID-​ Academic scholarships will be given out differently this year due to test scores being temporarily optional.\nThe Straus Scholars Program Award is designed for students who are community leaders in their respective schools and have been able to demonstrate high academic achievement, leadership potential through extra curricular activities, and commitment to studying the great works of the Jewish and Western tradition. Candidates can receive an annual scholarship of up to $25,000, renewable for up to three years on campus in NY. To apply, see the Straus Scholars Program(insert link here) application for more information.\nFor a list of merit-based awards that includes more specialized merit based scholarships which you may qualify for, see here. (https://www.yu.edu/admissions/academic-scholarships)"],
          "context_set": ""
         },
 	{"tag": "SDA Israel Program timeline",
          "patterns": ["At what stage do I have to apply for the S Daniel Abraham Israel Program?", "When Do i have to apply to the Israel program", "application process for Israel program"],
-         "responses": ["There is no application process for the S Daniel Abraham Israel Program; you simply need to be accepted to both a bachelor’s degree program at Yeshiva University and to the SDAIP- participating Israel program of your choice (listed here) (insert link here). Once you have been accepted to both programs and you have submitted your Intent to Enroll form and deposit to YU, you can fill out the S Daniel Abraham Israel Program Participation Form (insert link here) and submit that along with your acceptance letter to your Israel program. "],
+         "responses": ["There is no application process for the S Daniel Abraham Israel Program; you simply need to be accepted to both a bachelor’s degree program at Yeshiva University and to the SDAIP- participating Israel program of your choice (listed here- https://www.yu.edu/israel-program/gis). Once you have been accepted to both programs and you have submitted your Intent to Enroll form and deposit to YU, you can fill out the S Daniel Abraham Israel Program Participation Form (https://www.yu.edu/sites/default/files/inline-files/Israel%20Participation%20Agreement_0.pdf) and submit that along with your acceptance letter to your Israel program. "],
          "context_set": ""
         },
 	{"tag": "credit in Israel" ,
@@ -161,7 +166,7 @@
         },
 	{"tag": "learn about Israel Program",
          "patterns": ["Are there any opportunities to learn more about the Israel Program schools during my senior year?", "i would like to learn more about the Israel Program", "learn more about the israel program"],
-         "responses": ["Aside from the several community Israel nights held in the tristate area (also attended by members of the Yeshiva University admissions team, with whom you can discuss SDAIP) where representatives of various Israel schools are available to discuss the program with you, we also host the Israel schools at our Fall Open House programs. You can also see descriptions of each school on our website here. (insert link here)"],
+         "responses": ["Aside from the several community Israel nights held in the tristate area (also attended by members of the Yeshiva University admissions team, with whom you can discuss SDAIP) where representatives of various Israel schools are available to discuss the program with you, we also host the Israel schools at our Fall Open House programs. You can also see descriptions of each school on our website here. (https://www.yu.edu/israel-program/gis)"],
          "context_set": ""
         },
 	{"tag": "COVID-Israel Program" ,
@@ -179,55 +184,91 @@
          "responses": ["Honors applicants will have an honors interview if they are invited to participate in an honors day, but do not require a regular interview. However, if YU visits your school/community and provides an opportunity to be interviewed, we recommend scheduling an interview; this way, if you are not invited for an honors day, you do not need to schedule a separate interview."],
          "context_set": ""
         },
-  {"tag": "reapply as regular",
+        {"tag": "reapply as regular",
          "patterns": ["If I am not invited back for an honors day, do I need to reapply as a regular applicant?", "I was not invited to honors day. Do i need to reapply as a regular applicant now", "reapply as regular applicant after being rejected from honors"],
          "responses": ["If you fulfilled the requirements for an honors application and have an interview on file, you can use the honors application as your regular application. You do not need to reapply as a regular applicant."],
          "context_set": ""
         },
-  {"tag": "Honors Interview",
+        {"tag": "Honors Interview",
          "patterns": ["What can I expect from my honors interview?", "What is the honors interview like?", "honors interview example?"],
          "responses": ["As part of the Honors application process, applicants are invited to participate in an Honors interview.  During this online interview, you will meet with a member of the admissions staff and a faculty member to discuss your high school experience, your achievements, and your plans for the future, and delve deeper into the items submitted with your application. Honors interviews are 45 minutes long."],
          "context_set": ""
         },
-  {"tag": "Associate's in Management" ,
+        {"tag": "Associate's in Management" ,
          "patterns": ["What is the Associate’s in Management program?", "Associate's in Management program"],
          "responses": ["The AS in Management is a two-year, sixty credit program that can lead to matriculation into the Sy Syms School of Business or select programs at Yeshiva College or Stern College for Women to complete a Bachelor’s degree. It is a structured, cohort-based program over two years, including one summer.It is test optional, and a great fit for students who are looking for a program with additional academic support which will allow them to participate fully in the Yeshiva University community and provide a pathway to completing a four year degree at YU."],
          "context_set": ""
         },
-  {"tag": "AD besides Management",
+        {"tag": "AD besides Management",
          "patterns": ["Can I participate in the associate’s program in a major besides management?", "Are there other majors other than management in the Associate's program?", "Other majors in the AS degree?"],
          "responses": ["Currently, the Associate’s degree is only offered in Management.  After successful completion of the AS degree, students can matriculate into select programs at Yeshiva College and Stern College for Women."],
          "context_set": ""
         },
-  {"tag": "AD and Israel Program",
+        {"tag": "AD and Israel Program",
          "patterns": ["Are associate’s program students eligible to participate in the S Daniel Abraham Israel Program?", "If I am in the Associate's program, can I go to Israel?", "Associate's program and S daniel abraham Israel Program "],
          "responses": ["Due to the academic structure of the Associate’s program, Israel credits are not accepted. Students are welcome to take a gap year in Israel before beginning the Associate’s program, and they may defer their admission for the year."],
          "context_set": ""
         },
-  {"tag": "Apply after deadline",
+        {"tag": "Apply after deadline",
          "patterns": ["Can my student apply after the deadline?", "Can I apply after the deadline?", "What should I do if I apply after the deadline?"],
          "responses": ["We do not encourage this, but it may be possible. Please contact yuadmit@yu.edu (make a link here) to inquire about your options."],
          "context_set": ""
         },
-  {"tag": "Interview after deadline",
+        {"tag": "Interview after deadline",
          "patterns": ["If my student applied before the deadline, but wasn’t interviewed until after the deadline, will that delay their admissions decision?", "What if my interview is after the deadline"],
          "responses": ["While we recommend that students schedule interviews before the deadline, please encourage them to schedule an interview as promptly as possible."],
          "context_set": ""
         },
-  {"tag": "inadequate scores",
+        {"tag": "inadequate scores",
          "patterns": ["What if my student has the GPA but not the test scores or vice versa to meet the threshold for acceptance for Honors and General?", "What if my SAT scores are not high enough?", "What if my GPA is not high enough?", "WHat if my grades are not high enough?"],
          "responses": ["When looking at an applicant, we utilize a holistic review. We review the essays, extracurricular activities, leadership, letters of recommendation, and the interview. It is always possible for a student to boost their candidacy outside the GPA and test scores."],
          "context_set": ""
         },
-  {"tag": "senior grades",
+        {"tag": "senior grades",
          "patterns": ["Will you look at senior year grades?", "Do you look at senior grades", "Do my grades in senior year matter?"],
          "responses": ["We do look at senior grades for several reasons. It allows us to better understand a student who may have had a difficult start to high school, but is on an upward trajectory. It also allows us to ensure that all required courses have been fulfilled."],
          "context_set": ""
         },
-  {"tag": "Katz vs CC",
+        {"tag": "Katz vs CC",
          "patterns": ["What’s the benefit of our students being in Katz opposed to going to community college?", "Why should I go to Katz?", "What is good about Katz?"],
          "responses": ["A Katz student is just like any other student in YU. They will get more personal attention than they would in a community college. They’re also fully part of the YU  community, attend Judaic Studies classes with the rest of our students, participate in athletic teams and play active leadership roles in school clubs."],
          "context_set": ""
+        },
+        {"tag": "Order Transcript",
+         "patterns": ["How do I order a transcript?", "Order transcript", "Order my transcript" ],
+         "responses": ["To access the Transcript Request Form, please go to www.yu.edu/transcript. Please note we do not accept requests via the phone. If there are pending issues such as grading, graduation conferral, outside coursework, etc. it may be necessary to review your transcript beforehand to ensure aesthetical content."],
+         "context_set": ""
+        },
+        {"tag": "Never received diploma",
+         "patterns": ["I graduated, but I had never received my diploma", "never received diploma", "never got diploma", "I do not have my diploma" ],
+         "responses": ["Diplomas are sent approximately 8 to 12 weeks after the end of the term you applied for graduation. We send diplomas to the permanent address you put on your degree application; if you have not received your diploma please contact the Registrar's Office (https://www.yu.edu/registrar/contact) on your campus to verify your permanent address."],
+         "context_set": ""
+        },
+        {"tag": "Lost Diploma",
+         "patterns": ["I lost my diploma, how do I get a new one?", "I lost my diploma", "How do I get a new diploma", "I want a new diploma" ],
+         "responses": ["Please go to https://www.yu.edu/registrar/faqs to see the answer to your question."],
+         "context_set": ""
+        },
+        {"tag": "Degree Application",
+         "patterns": ["I'm not going to complete my degree requirements until the fall term, but I'd like to go through spring term commencement. Should I file a degree application?"],
+         "responses": ["Yes, but clearly mark which term you are applying for graduation and which term you will attend the ceremony."],
+         "context_set": ""
+        },
+        {"tag": "name at commencement",
+         "patterns": ["Will my name appear in the commencement program if I don't file an application for my degree?", "name in program application degree", "Will I appear in the commencement program if I do not file" ],
+         "responses": ["No, it won't. If it is very important that your name appear, be sure to file for your degree on time."],
+         "context_set": ""
+        },
+        {"tag": "apply for degree",
+         "patterns": ["How do I apply for a degree?", "I want to apply for a degree", "apply for degree" ],
+         "responses": ["You can pick up an application in the Registrar's Office (https://www.yu.edu/registrar/contact) on your campus."],
+         "context_set": ""
+        },
+        {"tag": "Registrar miscellaneous",
+         "patterns": ["How do I get my grades?", "I want to look at my grades?", "I want to access my grades", "I want to get my grades", "How do I access my grades", "How can I obtain an enrollment verification certificate?", "How do i get an enrollment verification certificate", "enrollment verification certificate", "How do I check the textbook information for my courses?", "How do I check what textbooks I need for my classes?", "What textbooks do I need", "How do I determine my class status and check if I have a hold?", "How do i check my class status", "How do i check if i have a hold", "check my class status" ],
+         "responses": ["Please go to https://www.yu.edu/registrar/faqs to see the answer to your question."],
+         "context_set": ""
         }
   ]
+
 }
