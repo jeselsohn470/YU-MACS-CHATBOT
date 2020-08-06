@@ -102,7 +102,7 @@ def predict(question):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     else:
-        return "I do not know the answer to that question. Would you like to speak to an Admissions Officer directly?"
+        return "I'm sorry, I do not know the answer to that question."
 
 
 ## for testing purposes
