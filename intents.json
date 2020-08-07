@@ -15,27 +15,27 @@
          "context_set": ""
         },
         {"tag": "SAT",
-         "patterns": ["What do i need for the sat","What score do I need for the SAT?","What SAT/ACT score do I need to apply to YU for regular admission? What about honors?", "SAT score", "ACT scores", "SAT", "ACT", "What SAT/ACT requirements do you have?"],
+         "patterns": ["What test score do i need?","What do i need for the sat","What score do I need for the SAT?","What SAT/ACT score do I need to apply to YU for regular admission? What about honors?", "SAT score", "ACT scores", "SAT", "ACT", "What SAT/ACT requirements do you have?"],
          "responses": ["We are looking for a 1170 on the SAT or a 24 on the ACT for regular admission. For honors admission, while we have no specific cut-off, the average (superscored) test scores in our most recent cohort- 1460 on the SAT and 32 on the ACT.\nCOVID- Yeshiva University has always taken a holistic approach when considering applicants for admission. We request and carefully review all the information, academic, and social, that is submitted to us by students and their schools. Grades and standardized tests along with extra-curricular activities, community involvement and the personal interview all support our efforts to get to know each applicant and come to a decision based on the understanding that we want our students to succeed at YU. As a result of the challenges students face in fulfilling the requirement of submitting standardized test scores due to Covid-19, Yeshiva University will adopt a one year test optional policy for 2021 high school graduates applying to university. This will be true for both general admission and honors applicants. Details related to additional information or input on each applicant will be posted along with the new admission application mid-summer. Our emphasis on the whole student as well as our commitment to the student’s success remains unchanged. We welcome any questions you may have regarding this or any other admissions related topic."],
          "context_set": ""
         },
         {"tag": "superscore",
-         "patterns": [" Do you superscore for admissions?", "superscore", "super score"],
+         "patterns": [" Do you superscore for admissions?", "superscore", "super score", "What is your superscore policy?", "can i superscore my sat"],
          "responses": ["We do not superscore for general admissions. We do superscore for honors.\nCOVID- ​We will not be superscoring this year due to our temporary change in testing policy. If an applicant does happen to have SAT/ACT scores though, we’d be more than happy to look at them as a way to boost their candidacy."],
          "context_set": ""
         },
         {"tag": "evaluation",
-         "patterns": ["Now that test scores are optional, how do you plan to evaluate students?", "evaluatr students", "how will you evaluate students"],
+         "patterns": ["Now that test scores are optional, how do you plan to evaluate students?", "evaluate students", "how will you evaluate students", "what will you emphasize in the application?", "should i submit a resume?", "how important are extracurricular activities"],
          "responses": ["While test scores are important, we take a holistic approach when evaluating an applicant. We will put a much heaver emphasis this year on extra curricular activities, leadership posts they hold, and their transcripts and the type of course they're applying themselves in. While a resume has been optional in the years past, we strongly recommend this year that every applicant sends one in along with letters of recommendation."],
          "context_set": ""
         },
         {"tag": "interview",
-         "patterns": ["What will my general admissions interview be like?", "What about my honors interview?", "what will my honors interview be like?", "interview", "honors interview"],
+         "patterns": ["What will my general admissions interview be like?", "What about my honors interview?", "what will my honors interview be like?", "interview", "honors interview", "what will my interview be like?", "what is the goal of the interview"],
          "responses": ["All applicants to Yeshiva University must sit for an interview with an admissions counselor. The interview is 15-20 minutes long, and will generally either take place at your high school, at one of our offices, or via Microsoft Teams. Our goal is to get to know more about you, your academic background, your extracurricular activities, and your interest in Yeshiva University.\nAs part of the Honors application process, applicants are invited to participate in an Honors interview.  During this online interview, you will meet with a member of the admissions staff and a faculty member to learn more about your high school experience, your achievements, and your plans for the future, and delve deeper into the items submitted with your application. Honors interviews are 45 minutes long."],
          "context_set": ""
         },
         {"tag": "recommendation letter",
-         "patterns": ["Do I have to submit an activities resume or a letter of recommendation, or are they optional?", "recommendation letter", "activities resume", "resume", "letter of recommendation"],
+         "patterns": ["Do I have to submit an activities resume or a letter of recommendation, or are they optional?", "recommendation letter", "activities resume", "letter of recommendation"],
          "responses": ["Currently, the activities resume is optional; however, we do recommend submitting it so that we can get to know more about you and your accomplishments.\nWhile all applicants must include the contact information for two personal references in their applications, general freshman applicants in the United States are not required to submit letters of recommendation. However, international, honors, associates, and early admission applicants must submit letters of recommendation through the online application portal.\nCOVID-​ Students of all types will be required to submit an activities resume and letters of recommendation this year. We want to gain as much insight as possible into the applicant due to test scores being optional this year."],
          "context_set": ""
         },
@@ -45,12 +45,12 @@
          "context_set": ""
         },
         {"tag": "rolling admissions",
-         "patterns": ["How does the rolling admissions process work?", "rolling admissions", "rolling admissions process"],
+         "patterns": ["How does the rolling admissions process work?", "rolling admissions", "rolling admissions process", "What is the rolling admission process?", "what is rolling admissions"],
          "responses": ["For the 2020 application period, we are implementing a rolling admissions process. Our online application will open on July 15, 2020. On December 15, 2020, admissions decisions will begin to be released to applicants and will be continued to be released on a rolling basis. Decisions will be released within 4 weeks of a completed application beginning with the December 15 notification.    The final application deadline will be January 20, 2021."],
          "context_set": ""
         },
         {"tag": "apply from Israel",
-         "patterns": ["Can I apply to YU while in Israel for the year?", "Can I apply from Israel", "Can I apply while in israel", "apply in Israel", "apply from israel"],
+         "patterns": ["Can I apply to YU while in Israel for the year?", "Can I apply from Israel", "Can I apply while in israel", "apply in Israel", "apply from israel", "How do i apply from israel?"],
          "responses": ["Yes, absolutely; you can be in touch with our Israel office at sdaip@yu.edu to arrange an interview at our Bayit Vegan office. Once you arrive on campus in the fall, you can submit your Israel program transcript for review. We do recommend applying while in high school and we allow students the ability to join our S. Daniel Abraham Israel Program or defer for the year."],
          "context_set": ""
         },
@@ -60,97 +60,97 @@
          "context_set": ""
         },
         {"tag": "Open House Date and location",
-         "patterns": ["When and where are your Open Houses?", "where is the Open House", "when is the open house"],
+         "patterns": ["When and where are your Open Houses?", "where is the Open House", "when is the open house", "date of the open house", "location of the open house"],
          "responses": ["Each November, we host two open houses, one on our Wilf Campus in Washington Heights for our men’s undergraduate schools and one on our Beren Campus in Midtown Manhattan for our women’s undergraduate schools. This year, our Women’s Open House will be Sunday, November 15 and our Men’s Open House will be Sunday, November 22."],
          "context_set": ""
         },
          {"tag": "Open House in-person",
-         "patterns": ["Will your Open Houses be in-person this year?", "in person open house", "open house this year"],
+         "patterns": ["Will your Open Houses be in-person this year?", "in person open house", "open house this year", "what will your open house be like this year", "how will the open house look like this year"],
          "responses": ["We are closely monitoring the situation and consulting with local, state and federal agencies.  The health and safety of our prospective students and families is important to us, so we will announce updates on our website.  If needed, the Open House will be held virtually."],
          "context_set": ""
         },
         {"tag": "Open House Intention",
-         "patterns": ["For whom are the open houses intended? ", "who are the open houses for", "are the open houses for me"],
+         "patterns": ["For whom are the open houses intended? ", "who are the open houses for", "are the open houses for me", "who are the open houses intended for", "is the open house for me"],
          "responses": ["The Open House programs are intended for high school juniors and seniors and their parents, but we are happy to welcome younger high school students as well."],
          "context_set": ""
         },
 	{"tag": "Open House Pre-Registration",
-         "patterns": ["Do I have to pre-register for the open house, or can I just show up?", "Do I have to pre-register for the open house?", "Can I just show up to the open house?", "register for the open house"],
+         "patterns": ["Do I have to pre-register for the open house, or can I just show up?", "Do I have to pre-register for the open house?", "Can I just show up to the open house?", "register for the open house", "is there a need to register for the opem house.", "I did not register for the open house. Can i still come?"],
          "responses": ["We do require registration for each Open House, and you can pre-register online here [insert link]; however, if you do not pre-register, you will be given the opportunity to register when you arrive."],
          "context_set": ""
         },
 	{"tag": "Open House Lodging/Parking",
-         "patterns": ["Where can I stay when I come for the open house?", "Hotel recommendations for open house", "Where should I park when I come for the open house?", "Where can I park my car when I come for the open house?", "Parking lots for open house"],
+         "patterns": ["Where can I stay when I come for the open house?", "Hotel recommendations for open house", "Where should I park when I come for the open house?", "Where can I park my car when I come for the open house?", "Parking lots for open house", "is there parking for the open house", "are there hotels near the campus"],
          "responses": ["There are a number of parking lots surrounding both our Wilf and Beren Campuses; for our recommendations for parking lots and hotels, see this link [insert]."],
          "context_set": ""
         },
 	{"tag": "Open House Israel Presentations",
-         "patterns": ["Does the open house include any opportunities to find out more about the Israel schools which are part of the S. Daniel Abraham Israel Program?", "Learn about Israel schools at the open house", "About S. Daniel Abraham Israel Program at open house?" ],
+         "patterns": ["Does the open house include any opportunities to find out more about the Israel schools which are part of the S. Daniel Abraham Israel Program?", "Learn about Israel schools at the open house", "About S. Daniel Abraham Israel Program at open house?", "Israel fair at open house", "Will there be an israel fair at the open house" ],
          "responses": ["Both Open House programs include an Israel Fair with presentations from the Israel schools. For more information about the fall open house, please see this page [insert link]"],
          "context_set": ""
         },
 	{"tag": "Spring Open House",
-         "patterns": ["Do you have a spring open house", "Is there a spring open house", "Will there be a spring open house", "Do you have an open house in the spring"],
+         "patterns": ["Do you have a spring open house", "Is there a spring open house", "Will there be a spring open house", "Do you have an open house in the spring", "open house in the spring"],
          "responses": ["We do not currently have a Spring Open House, but we look forward to hosting a variety of events in the spring for admitted students and high school juniors.\nCOVID- We are currently hosting a variety of online events for admitted students- please see [link] to find out more information."],
          "context_set": ""
         },
 	{"tag": "YU Community Recruiting",
-         "patterns": ["Will Yeshiva University be traveling to our community this year?", "Will someone from YU be coming to my community this year", "Will a representative from Yeshiva University be visiting our community this year"],
+         "patterns": ["Will Yeshiva University be traveling to our community this year?", "Will someone from YU be coming to my community this year", "Will a representative from Yeshiva University be visiting our community this year", "will someone from Yeshiva University be coming to my school this year"],
          "responses": ["We are closely monitoring the situation and consulting with local,state and federal agencies.  The health and safety of our prospective students as well as our staff  is important to us, so we will announce updates on our website. If needed, we will host events online this fall."],
          "context_set": ""
         },
 	{"tag": "Open House Alternative",
-         "patterns": ["If I can’t come to Open House, do I have any other opportunities to visit YU?", "Is there any other time I can visit campus besides for the Open House?", "When can I come to visit YU?"],
+         "patterns": ["If I can’t come to Open House, do I have any other opportunities to visit YU?", "Is there any other time I can visit campus besides for the Open House?", "When can I come to visit YU?", "other than the open house, are there other ways to visit Yeshiva university", "Can i visit YU", "Can i visit yeshiva university"],
          "responses": ["Definitely! We host visitors on our Wilf and Beren Campuses nearly every day. Simply fill out this form​ (https://www.yu.edu/admissions/schedule-a-visit) in order to schedule your visit; one of our admissions counselors will be in touch with you.\nCOVID- We are offering virtual online information sessions with an admissions counselor To schedule one, please email us at yuadmit@yu.edu"],
          "context_set": ""
         },
 	{"tag": "Campus Visit Expectations",
-         "patterns": ["What can I expect from my visit?", "What's the schedule for my campus visit?", "What would I do during my visit to campus?", "What would my campus visit look like"],
+         "patterns": ["What can I expect from my visit?", "What's the schedule for my campus visit?", "What would I do during my visit to campus?", "What would my campus visit look like", "what will my campus visit be like", "what is the visit to campus like"],
          "responses": ["Each visit is customized to a prospective student’s interests. We are happy to offer an information session with an admissions counselor, a tour, lunch with a current student, and an interview (if you are a high school senior or graduate). If you have any questions, concerns or requests, please add them in the notes section of the visit request form, and we will be in touch to address them."],
          "context_set": ""
         },
 	{"tag": "Campus Visit Chaperone",
-         "patterns": ["Can my parents come with me to my campus visit", "Can I bring my parents to my visit?", "Do I need to bring my parents on my visit?", "Do one of my parents need to come with me to my visit?", "Do I need to come with an adult?"],
+         "patterns": ["Can my parents come with me to my campus visit", "Can I bring my parents to my visit?", "Do I need to bring my parents on my visit?", "Do one of my parents need to come with me to my visit?", "Do I need to come with an adult?", "my parents want to come with me on my visit", "my mother wants to come with me to my campus visit"],
          "responses": ["We are happy to host potential students with or without their parents."],
          "context_set": ""
         },
 	{"tag": "Campus Visit Buddy",
-         "patterns": ["Can I bring a friend to the open house","Can I come to my campus visit with a friend?", "Can I bring a friend along to my visit?", "can a friend come with me when i visit?"],
+         "patterns": ["Can I bring a friend to the open house","Can I come to my campus visit with a friend?", "Can I bring a friend along to my visit?", "can a friend come with me when i visit?", "can a friend come with me to my campous visit"],
          "responses": ["Absolutely! Just make sure that you both fill out the form with the same dates and preferences, and add in the notes that you’d like to come together; we will be happy to accommodate you."],
          "context_set": ""
         },
 	{"tag": "Campus Visit Walk-in Hours",
-         "patterns": ["Do you have walk-in hours for campus visits?", "Is there any time I can drop in for a campus visit?", "walk in hours"],
+         "patterns": ["Do you have walk-in hours for campus visits?", "Is there any time I can drop in for a campus visit?", "walk in hours", "are there walk in hours for campus visit"],
          "responses": ["Unfortunately, for security reasons we do not have walk-in hours. You are welcome to call us at any time at 646-592-4440 if you have any questions, or to arrange a visit with us using the Campus Visit form."],
          "context_set": ""
         },
 	{"tag": "High School Year",
-         "patterns": ["Can I visit YU even if I’m not a high school senior?", "What grade do I have to be in to visit YU?"],
+         "patterns": ["Can I visit YU even if I’m not a high school senior?", "What grade do I have to be in to visit YU?", "What grade do i have to be to visit yeshiva university YU", "how old do i have to be to visit campus", "what grade do i have to be to visit campus", "can i visit YU if not a senior", "can i visit campus if i am not a senior"],
          "responses": ["While only potential students who are high school seniors or graduates are eligible to be interviewed, we'd love to have you visit campus anyways!"],
          "context_set": ""
         },
 	{"tag": "COVID visits",
-         "patterns": ["Are campus visits available while the campus is closed due to COVID-19?", "Even though the campus is closed because of the coronavirus, are campus visits still available?"],
+         "patterns": ["Are campus visits available while the campus is closed due to COVID-19?", "Even though the campus is closed because of the coronavirus, are campus visits still available?", "Campus visit during COVID time", "can i visit campus despite COVID", "are there campus visits now", "are there campus visits given the circumstances", "can i visit YU now"],
          "responses": ["Unfortunately, due to the campus closure, on-campus visits are not available. However, please visit yu.edu/visit and fill out the Campus Visit form in order to schedule a personalized information session with one of our admissions counselors. We are also happy to put you in touch with our student ambassadors who can share more about their YU experience."],
          "context_set": ""
         },
 	{"tag": "Financial Aid Application",
-         "patterns": ["At what point in the admissions process do I apply for financial aid?", "When should I apply for financial aid?"],
+         "patterns": ["How do I apply for financial aid?", "What forms do i need to fill out for financial aid", "What do i need to do to apply for financial aid", "At what point in the admissions process do I apply for financial aid?", "When should I apply for financial aid?"],
          "responses": ["We recommend filling out the FAFSA (Free Application for Federal Student Aid- find it here (https://studentaid.gov/h/apply-for-aid/fafsa) as soon as possible after it opens nationally on [DATE]]. The form is an important way that the Office of Student Finance determines your financial aid eligibility.  International students who are not a U.S. citizen or permanent resident, you can find the International Student Financial Aid application here (https://www.yu.edu/sites/default/files/inline-files/2020_21_UG_International_Fanaid_Appl__2.pdf). We also encourage you to fill out our Private Elementary and Secondary School Tuition Form if there are younger children in your family who attend private day school; we know that that is often a significant expense and make sure to take it into account. Once you have been accepted to Yeshiva University, the Office of Student Finance will evaluate the submitted financial information and use it to determine the financial aid offered. If you have any questions about the financial aid process, you can contact the Office of Student FInance at 212-960-5399 or at studentaid@yu.edu."],
          "context_set": ""
         },
 	{"tag": "Financial Aid Recourse",
-         "patterns": ["If I require more financial aid than is initially offered to me, do I have any recourse?", "What can I do if I need more financial aid than I'm offered?", "What happens if the financial aid I'm offered isn't enough?"],
+         "patterns": ["If I require more financial aid than is initially offered to me, do I have any recourse?", "What can I do if I need more financial aid than I'm offered?", "What happens if the financial aid I'm offered isn't enough?", "Can i apply for additional financial aid", "How do i apply for more financial aid than was given to me"],
          "responses": ["Yes. You can always appeal if you’re not satisfied with your financial aid package; you can contact the Office of Student Finance in order to submit an appeal."],
          "context_set": ""
         },
 	{"tag": "COVID Financial Aid",
-         "patterns": ["What happens if my financial situation has changed due to the impact of COVID-19?", "My financial situation changed due to COVID-19", "COVID changed my financial status"],
+         "patterns": ["What happens if my financial situation has changed due to the impact of COVID-19?", "My financial situation changed due to COVID-19", "COVID changed my financial status", "because of COVID, i need more financial aid"],
          "responses": ["If your financial situation has changed due to the impact of COVID-19, please be in touch with the Office of Student Finance."],
          "context_set": ""
         },
 	{"tag": "Merit Based Scholarships",
-         "patterns": ["Are there any merit- based scholarships available besides honors?", "Any scholarships besides honors?", "More scholarship opportunities", "other scholarships except for honors"],
+         "patterns": ["Are there any merit- based scholarships available besides honors?", "Any scholarships besides honors?", "More scholarship opportunities", "other scholarships except for honors", "merit based scholarships", "what type of merit-based scholarships does YU offer?", "Dean scholarship", "Straus scholarship"],
          "responses": ["We also offer the Dean’s and Straus scholarships to students. A Dean’s award is $7500; Dean’s scholars are eligible to enroll in honors level courses, and invited to attend colloquia for Dean’s students as well as a Dean’s reception each year. We’re looking for students who have a GPA of 90, as well as an SAT score of 1340 or an ACT score of 29.\nCOVID-​ Academic scholarships will be given out differently this year due to test scores being temporarily optional.\nThe Straus Scholars Program Award is designed for students who are community leaders in their respective schools and have been able to demonstrate high academic achievement, leadership potential through extra curricular activities, and commitment to studying the great works of the Jewish and Western tradition. Candidates can receive an annual scholarship of up to $25,000, renewable for up to three years on campus in NY. To apply, see the Straus Scholars Program(insert link here) application for more information.\nFor a list of merit-based awards that includes more specialized merit based scholarships which you may qualify for, see here. (https://www.yu.edu/admissions/academic-scholarships)"],
          "context_set": ""
         },
@@ -268,7 +268,19 @@
          "patterns": ["How do I get my grades?", "I want to look at my grades?", "I want to access my grades", "I want to get my grades", "How do I access my grades", "How can I obtain an enrollment verification certificate?", "How do i get an enrollment verification certificate", "enrollment verification certificate", "How do I check the textbook information for my courses?", "How do I check what textbooks I need for my classes?", "What textbooks do I need", "How do I determine my class status and check if I have a hold?", "How do i check my class status", "How do i check if i have a hold", "check my class status" ],
          "responses": ["Please go to https://www.yu.edu/registrar/faqs to see the answer to your question."],
          "context_set": ""
+        },
+        {"tag": "test tag",
+         "patterns": ["did the red sox win" ],
+         "responses": ["red sox win"],
+         "context_set": ""
+        },
+        {"tag": "test tag",
+                "patterns": ["did the patriots win" ],
+                "responses": ["pats win"],
+                "context_set": ""
         }
+       
+
   ]
 
 }
