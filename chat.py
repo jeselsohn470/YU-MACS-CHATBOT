@@ -16,6 +16,8 @@ with open('intents.json', 'r') as json_data:
 FILE = "data.pth"
 data = torch.load(FILE)
 
+# now it will go through the nueral network
+
 input_size = data["input_size"]
 
 hidden_size = data["hidden_size"]
@@ -28,59 +30,8 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-# bot_name = "MACS"
-# print("Hi There!")
-#
-# # while True:
-# #     sentence = input("You: ").lower()
-# #     # sentence = "do you use credit cards?"
-# #
-# #     sentence = tokenize(sentence)
-# #     X = bag_of_words(sentence, all_words)
-# #     X = X.reshape(1, X.shape[0])
-# #     X = torch.from_numpy(X).to(device)
-# #
-# #     output = model(X)
-# #     _, predicted = torch.max(output, dim=1)
-# #
-# #     tag = tags[predicted.item()]
-# #
-# #     probs = torch.softmax(output, dim=1)
-# #     prob = probs[0][predicted.item()]
-# #     if prob.item() > 0.75:
-# #         if tag == "goodbye":
-# #             print(bot_name + ": I hope you found the answers you were looking for. Goodbye now")
-# #             break
-# #         for intent in intents['intents']:
-# #             if tag == intent["tag"]:
-# #                 if tag == "greeting":
-# #                     print(bot_name + ": " + random.choice(intent['responses']))
-# #                     break
-# #                 print(bot_name + ": " + random.choice(intent['responses']) + "\n\nDo you have any other questions?")
-# #
-# #     else:
-# #         officer = input(bot_name + ": I do not understand... Would you like to speak to an Admissions Officer? \nYou: ").lower()
-# #
-# #         sentence = tokenize(officer)
-# #         X = bag_of_words(sentence, all_words)
-# #         X = X.reshape(1, X.shape[0])
-# #         X = torch.from_numpy(X).to(device)
-# #
-# #         output = model(X)
-# #         _, predicted = torch.max(output, dim=1)
-# #
-# #         tag = tags[predicted.item()]
-# #
-# #         probs = torch.softmax(output, dim=1)
-# #         prob = probs[0][predicted.item()]
-# #
-# #         if prob.item() > 0.75 and tag == "yes":
-# #             print("Ok. I will connect you with an Admissions Officer shortly")
-# #             break
-# #         else:
-# #             print(bot_name + ": Do you have any other questions then? If so, what are they?")
 
-
+##function which returns the answer to the lambda
 def predict(question):
     sentence = question.lower()
 
@@ -102,8 +53,8 @@ def predict(question):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     else:
-        return "I'm sorry, I do not know the answer to that question."
+        return "I do not know the answer to that question. Would you like to speak to an Admissions Officer directly?"
 
 
-## for testing purposes
+
 print(predict(argv[1]))
