@@ -155,22 +155,22 @@
          "context_set": ""
         },
 	{"tag": "SDA Israel Program timeline",
-         "patterns": ["At what stage do I have to apply for the S Daniel Abraham Israel Program?", "When Do i have to apply to the Israel program", "application process for Israel program"],
+         "patterns": ["At what stage do I have to apply for the S Daniel Abraham Israel Program?", "how do i apply for the Israel Program?", "When Do i have to apply to the Israel program", "application process for Israel program"],
          "responses": ["There is no application process for the S Daniel Abraham Israel Program; you simply need to be accepted to both a bachelor’s degree program at Yeshiva University and to the SDAIP- participating Israel program of your choice (listed here- https://www.yu.edu/israel-program/gis). Once you have been accepted to both programs and you have submitted your Intent to Enroll form and deposit to YU, you can fill out the S Daniel Abraham Israel Program Participation Form (https://www.yu.edu/sites/default/files/inline-files/Israel%20Participation%20Agreement_0.pdf) and submit that along with your acceptance letter to your Israel program. "],
          "context_set": ""
         },
 	{"tag": "credit in Israel" ,
-         "patterns": ["Do i get credit while in Yeshiva","do i get credit for going to israel?","Do credits only apply for one year in Israel?", "Do I get credit for two years in Israel?", "Do I get credit for the second year in Israel?", "Do I get credit in Israel?"],
+         "patterns": ["Do i get credit while in Yeshiva","do i get credit for going to israel?","Do credits only apply for one year in Israel?", "Do I get credit for two years in Israel?", "Do I get credit for the second year in Israel?", "Do I get credit in Israel?", "Does being in Israel give me credit?"],
          "responses": ["Men can receive credit for up to one year. Men who stay for Shana Bet are eligible to join the Post Pesach Program (PPP), which allows them to come to YU after Pesach and begin earning college credit while still taking advantage of the yeshiva program.\nWomen can receive credit for both their Shana Alef and Shana Bet years."],
          "context_set": ""
         },
 	{"tag": "learn about Israel Program",
-         "patterns": ["Are there any opportunities to learn more about the Israel Program schools during my senior year?", "i would like to learn more about the Israel Program", "learn more about the israel program"],
+         "patterns": ["Are there any opportunities to learn more about the Israel Program schools during my senior year?", "i would like to learn more about the Israel Program", "learn more about the israel program", "How do I learn about the Israel Program"],
          "responses": ["Aside from the several community Israel nights held in the tristate area (also attended by members of the Yeshiva University admissions team, with whom you can discuss SDAIP) where representatives of various Israel schools are available to discuss the program with you, we also host the Israel schools at our Fall Open House programs. You can also see descriptions of each school on our website here. (https://www.yu.edu/israel-program/gis)"],
          "context_set": ""
         },
 	{"tag": "COVID-Israel Program" ,
-         "patterns": ["What happens if the Israel programs do not open in the Fall?", "Israel program not open in fall", "Yeshiva is closed in the fall"],
+         "patterns": ["What happens if the Israel programs do not open in the Fall?", "Israel program not open in fall", "Yeshiva is closed in the fall", "My yeshiva is closed", "Has COvid affected the Israel program?"],
          "responses": ["We continue to be in touch with our Israel Schools as well as our governmental partners and are closely monitoring the situation. We are prepared to make accommodations in case our students are unable to go to Israel."],
          "context_set": ""
         },
@@ -180,27 +180,27 @@
          "context_set": ""
         },
 	{"tag":"honors interview" ,
-         "patterns": ["Do I need a regular interview if I plan to apply honors?", "If applying to honors, do I also need a regular interview?", "regular interview in addition to honors interview?"],
+         "patterns": ["Do I need a regular interview if I plan to apply honors?", "If applying to honors, do I also need a regular interview?", "regular interview in addition to honors interview?", "I already did an honors interview. Do i need to do a regular interview"],
          "responses": ["Honors applicants will have an honors interview if they are invited to participate in an honors day, but do not require a regular interview. However, if YU visits your school/community and provides an opportunity to be interviewed, we recommend scheduling an interview; this way, if you are not invited for an honors day, you do not need to schedule a separate interview."],
          "context_set": ""
         },
         {"tag": "reapply as regular",
-         "patterns": ["If I am not invited back for an honors day, do I need to reapply as a regular applicant?", "I was not invited to honors day. Do i need to reapply as a regular applicant now", "reapply as regular applicant after being rejected from honors"],
+         "patterns": ["If I am not invited back for an honors day, do I need to reapply as a regular applicant?", "I was not invited to honors day. Do i need to reapply as a regular applicant now", "reapply as regular applicant after being rejected from honors", "Do i need to reapply if not accepted to honors", "Do i need to reapply if rejected from honors"],
          "responses": ["If you fulfilled the requirements for an honors application and have an interview on file, you can use the honors application as your regular application. You do not need to reapply as a regular applicant."],
          "context_set": ""
         },
         {"tag": "Honors Interview",
-         "patterns": ["What can I expect from my honors interview?", "What is the honors interview like?", "honors interview example?"],
+         "patterns": ["What will the honors interview be like?", "What do I need for the honors interview", "What can I expect from my honors interview?", "What is the honors interview like?", "honors interview example?"],
          "responses": ["As part of the Honors application process, applicants are invited to participate in an Honors interview.  During this online interview, you will meet with a member of the admissions staff and a faculty member to discuss your high school experience, your achievements, and your plans for the future, and delve deeper into the items submitted with your application. Honors interviews are 45 minutes long."],
          "context_set": ""
         },
         {"tag": "Associate's in Management" ,
-         "patterns": ["What is the Associate’s in Management program?", "Associate's in Management program"],
+         "patterns": ["What is the Associate’s in Management program?", "What can you tell me about the Associate’s Management program", "What is there to know about the Associate’s program"],
          "responses": ["The AS in Management is a two-year, sixty credit program that can lead to matriculation into the Sy Syms School of Business or select programs at Yeshiva College or Stern College for Women to complete a Bachelor’s degree. It is a structured, cohort-based program over two years, including one summer.It is test optional, and a great fit for students who are looking for a program with additional academic support which will allow them to participate fully in the Yeshiva University community and provide a pathway to completing a four year degree at YU."],
          "context_set": ""
         },
         {"tag": "AD besides Management",
-         "patterns": ["Can I participate in the associate’s program in a major besides management?", "Are there other majors other than management in the Associate's program?", "Other majors in the AS degree?"],
+         "patterns": ["Can I participate in the associate’s program in a major besides management?", "Are there other majors other than management in the Associate's program?", "Other majors in the AS degree?", "what majors are in the Associate’s degree", "what can i major in the Associate’s degree"],
          "responses": ["Currently, the Associate’s degree is only offered in Management.  After successful completion of the AS degree, students can matriculate into select programs at Yeshiva College and Stern College for Women."],
          "context_set": ""
         },
@@ -210,12 +210,12 @@
          "context_set": ""
         },
         {"tag": "Apply after deadline",
-         "patterns": ["Can my student apply after the deadline?", "Can I apply after the deadline?", "What should I do if I apply after the deadline?"],
+         "patterns": ["Can my student apply after the deadline?", "Can I apply after the deadline?", "What should I do if I apply after the deadline?" , "the deadline is over. can i still apply?"],
          "responses": ["We do not encourage this, but it may be possible. Please contact yuadmit@yu.edu (make a link here) to inquire about your options."],
          "context_set": ""
         },
         {"tag": "Interview after deadline",
-         "patterns": ["If my student applied before the deadline, but wasn’t interviewed until after the deadline, will that delay their admissions decision?", "What if my interview is after the deadline"],
+         "patterns": ["If my student applied before the deadline, but wasn’t interviewed until after the deadline, will that delay their admissions decision?", "What if my interview is after the deadline", "interview after the deadline"],
          "responses": ["While we recommend that students schedule interviews before the deadline, please encourage them to schedule an interview as promptly as possible."],
          "context_set": ""
         },
@@ -225,12 +225,12 @@
          "context_set": ""
         },
         {"tag": "senior grades",
-         "patterns": ["Will you look at senior year grades?", "Do you look at senior grades", "Do my grades in senior year matter?"],
+         "patterns": ["Will you look at senior year grades?", "Do you look at senior grades", "Do my grades in senior year matter?", "do my senior grades affect my application"],
          "responses": ["We do look at senior grades for several reasons. It allows us to better understand a student who may have had a difficult start to high school, but is on an upward trajectory. It also allows us to ensure that all required courses have been fulfilled."],
          "context_set": ""
         },
         {"tag": "Katz vs CC",
-         "patterns": ["What’s the benefit of our students being in Katz opposed to going to community college?", "Why should I go to Katz?", "What is good about Katz?"],
+         "patterns": ["What’s the benefit of our students being in Katz opposed to going to community college?", "Why should I go to Katz?", "What is good about Katz?", "What are the benefits of going to Katz school"],
          "responses": ["A Katz student is just like any other student in YU. They will get more personal attention than they would in a community college. They’re also fully part of the YU  community, attend Judaic Studies classes with the rest of our students, participate in athletic teams and play active leadership roles in school clubs."],
          "context_set": ""
         },
@@ -268,7 +268,7 @@
          "patterns": ["How do I get my grades?", "I want to look at my grades?", "I want to access my grades", "I want to get my grades", "How do I access my grades", "How can I obtain an enrollment verification certificate?", "How do i get an enrollment verification certificate", "enrollment verification certificate", "How do I check the textbook information for my courses?", "How do I check what textbooks I need for my classes?", "What textbooks do I need", "How do I determine my class status and check if I have a hold?", "How do i check my class status", "How do i check if i have a hold", "check my class status" ],
          "responses": ["Please go to https://www.yu.edu/registrar/faqs to see the answer to your question."],
          "context_set": ""
-        },
+        }
 
   ]
 
