@@ -15,7 +15,7 @@
          "context_set": ""
         },
         {"tag": "SAT",
-         "patterns": ["What score do I need for the SAT?","What SAT/ACT score do I need to apply to YU for regular admission? What about honors?", "SAT score", "ACT scores", "SAT", "ACT", "What SAT/ACT requirements do you have?"],
+         "patterns": ["What do i need for the sat","What score do I need for the SAT?","What SAT/ACT score do I need to apply to YU for regular admission? What about honors?", "SAT score", "ACT scores", "SAT", "ACT", "What SAT/ACT requirements do you have?"],
          "responses": ["We are looking for a 1170 on the SAT or a 24 on the ACT for regular admission. For honors admission, while we have no specific cut-off, the average (superscored) test scores in our most recent cohort- 1460 on the SAT and 32 on the ACT.\nCOVID- Yeshiva University has always taken a holistic approach when considering applicants for admission. We request and carefully review all the information, academic, and social, that is submitted to us by students and their schools. Grades and standardized tests along with extra-curricular activities, community involvement and the personal interview all support our efforts to get to know each applicant and come to a decision based on the understanding that we want our students to succeed at YU. As a result of the challenges students face in fulfilling the requirement of submitting standardized test scores due to Covid-19, Yeshiva University will adopt a one year test optional policy for 2021 high school graduates applying to university. This will be true for both general admission and honors applicants. Details related to additional information or input on each applicant will be posted along with the new admission application mid-summer. Our emphasis on the whole student as well as our commitment to the student’s success remains unchanged. We welcome any questions you may have regarding this or any other admissions related topic."],
          "context_set": ""
         },
@@ -115,12 +115,12 @@
          "context_set": ""
         },
 	{"tag": "Campus Visit Buddy",
-         "patterns": ["Can I come to my campus visit with a friend?", "Can I bring a friend along to my visit?", "can a friend come with me when i visit?"],
+         "patterns": ["Can I bring a friend to the open house","Can I come to my campus visit with a friend?", "Can I bring a friend along to my visit?", "can a friend come with me when i visit?"],
          "responses": ["Absolutely! Just make sure that you both fill out the form with the same dates and preferences, and add in the notes that you’d like to come together; we will be happy to accommodate you."],
          "context_set": ""
         },
 	{"tag": "Campus Visit Walk-in Hours",
-         "patterns": ["Do you have walk-in hours for campus visits?", "Is there any time I can drop in for a campus visit?"],
+         "patterns": ["Do you have walk-in hours for campus visits?", "Is there any time I can drop in for a campus visit?", "walk in hours"],
          "responses": ["Unfortunately, for security reasons we do not have walk-in hours. You are welcome to call us at any time at 646-592-4440 if you have any questions, or to arrange a visit with us using the Campus Visit form."],
          "context_set": ""
         },
@@ -175,7 +175,7 @@
          "context_set": ""
         },
 	{"tag": "honors application timeline",
-         "patterns": ["Should I apply early or regular decision for honors?", "apply early to honors", "apply regular decision to honors"],
+         "patterns": ["Should I apply early or regular decision for honors?", "apply early to honors", "apply regular decision to honors", "when should i apply for honors"],
          "responses": ["Applying early decision is considered a binding commitment; if you are accepted to the Honors program in the early decision round, you are bound to attend Yeshiva University and to drop all other applications to other universities. If Yeshiva University is a top choice for you, applying early decision could be the right choice for you.\nApplying regular decision is not binding; if Yeshiva University is one of several options and you don’t want to commit to early decision, regular decision could be a good option for you."],
          "context_set": ""
         },
