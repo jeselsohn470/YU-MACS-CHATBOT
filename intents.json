@@ -269,12 +269,6 @@
          "responses": ["Please go to https://www.yu.edu/registrar/faqs to see the answer to your question."],
          "context_set": ""
         },
-        {"tag": "test tag",
-         "patterns": ["did the red sox win" ],
-         "responses": ["red sox win"],
-         "context_set": ""
-        }
-       
 
   ]
 
