@@ -274,11 +274,22 @@
          "responses": ["red sox win"],
          "context_set": ""
         },
-        {"tag": "test tag",
+        {"tag": "test tag1",
                 "patterns": ["did the patriots win" ],
                 "responses": ["pats win"],
                 "context_set": ""
+        },
+        {"tag": "test tag2",
+                "patterns": ["did the spurs win" ],
+                "responses": ["spurs win"],
+                "context_set": ""
+        },
+        {"tag": "test tag3",
+                "patterns": ["hello there bob" ],
+                "responses": ["yessir"],
+                "context_set": ""
         }
+        
        
 
   ]
