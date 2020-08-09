@@ -76,7 +76,7 @@
         },
 	{"tag": "Open House Pre-Registration",
          "patterns": ["Do I have to pre-register for the open house, or can I just show up?", "Do I have to pre-register for the open house?", "Can I just show up to the open house?", "register for the open house", "is there a need to register for the opem house.", "I did not register for the open house. Can i still come?"],
-         "responses": ["We do require registration for each Open House, and you can pre-register online here [insert link]; however, if you do not pre-register, you will be given the opportunity to register when you arrive."],
+         "responses": ["We do require registration for each Open House, and you can pre-register online here (https://www.yu.edu/admissions/events/openhouse-men); however, if you do not pre-register, you will be given the opportunity to register when you arrive."],
          "context_set": ""
         },
 	{"tag": "Open House Lodging/Parking",
@@ -86,12 +86,12 @@
         },
 	{"tag": "Open House Israel Presentations",
          "patterns": ["Does the open house include any opportunities to find out more about the Israel schools which are part of the S. Daniel Abraham Israel Program?", "Learn about Israel schools at the open house", "About S. Daniel Abraham Israel Program at open house?", "Israel fair at open house", "Will there be an israel fair at the open house" ],
-         "responses": ["Both Open House programs include an Israel Fair with presentations from the Israel schools. For more information about the fall open house, please see this page [insert link]"],
+         "responses": ["Both Open House programs include an Israel Fair with presentations from the Israel schools. For more information about the fall open house, please see this page: https://www.yu.edu/admissions/events/openhouse-men"],
          "context_set": ""
         },
 	{"tag": "Spring Open House",
          "patterns": ["Do you have a spring open house", "Is there a spring open house", "Will there be a spring open house", "Do you have an open house in the spring", "open house in the spring"],
-         "responses": ["We do not currently have a Spring Open House, but we look forward to hosting a variety of events in the spring for admitted students and high school juniors.\nCOVID- We are currently hosting a variety of online events for admitted students- please see [link] to find out more information."],
+         "responses": ["We do not currently have a Spring Open House, but we look forward to hosting a variety of events in the spring for admitted students and high school juniors.\nCOVID- We are currently hosting a variety of online events for admitted students- please see https://www.yu.edu/admissions/events/openhouse-men to find out more information."],
          "context_set": ""
         },
 	{"tag": "YU Community Recruiting",
