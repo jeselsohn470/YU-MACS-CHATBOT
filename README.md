@@ -26,11 +26,11 @@ Explanation of the Files:
 In nltk_utils.py, we use all of the NLTK utilities mentioned above (tokenization, stemming and bag of words) to get from the question the user entered to the bag of words array.
 
 In train.py, we load the json intents file and create the training data by collecting all of the words and putting them in the all_words list. We also create a list that holds all the tags from the json file. Finally, we create a list called xy which holds both the patterns and the tags from the json file. 
-After this, we create the chat data set and train the data by passing it through the neural network. Once the training is completed, the deap learning model is created and the data is saved in data.pth.
+After this, we create the chat data set and train the data by passing it through the neural network. Once the training is completed, the deep learning model is created and the model and data are saved in data.pth.
 
-model.py is our model for the chatbot. 
+model.py is the code which creates the model for the chatbot. 
 
-In chat.py, the chat function is implemented. If the model can clasiffy the question into one of the tags with a probability of at least 75 percent, then the bot returns the response from that tag. Otherwise, the bot will return, "I'm sorry, I do not know the answer to that question." 
+In chat.py, the chat function is implemented. If the model can classify the question into one of the tags with a probability of at least 75 percent, then the bot returns the response from that tag. Otherwise, the bot will return, "I'm sorry, I do not know the answer to that question." 
 
 
 
