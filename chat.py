@@ -48,7 +48,7 @@ def predict(question):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
-    if prob.item() > 0.80:
+    if prob.item() > 0.85:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
