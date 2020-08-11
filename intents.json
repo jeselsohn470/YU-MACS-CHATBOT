@@ -10,7 +10,7 @@
          "context_set": ""
         },
         {"tag": "I love you",
-         "patterns": ["I love you"],
+         "patterns": ["I love you", "Do you love me"],
          "responses": ["I love you too"],
          "context_set": ""
         },
