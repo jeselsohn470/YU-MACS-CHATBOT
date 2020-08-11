@@ -1,9 +1,4 @@
 {"intents": [
-        {"tag": "greeting",
-         "patterns": ["How's it going?", "Hi", "How are you", "Hello", "Good day", "Whats up"],
-         "responses": ["Hi there!"],
-         "context_set": ""
-        },
         {"tag": "what is love",
          "patterns": ["What is love"],
          "responses": ["Baby don't hurt me. Don't hurt me"],
