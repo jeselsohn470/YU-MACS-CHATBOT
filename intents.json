@@ -1,14 +1,4 @@
 {"intents": [
-        {"tag": "what is love",
-         "patterns": ["What is love"],
-         "responses": ["Baby don't hurt me. Don't hurt me"],
-         "context_set": ""
-        },
-        {"tag": "I love you",
-         "patterns": ["I love you", "Do you love me"],
-         "responses": ["I love you too"],
-         "context_set": ""
-        },
         {"tag": "SAT",
          "patterns": ["What test score do i need?", "What SAT scores do i need for honors","What do i need for the sat","What score do I need for the SAT?","What SAT/ACT score do I need to apply to YU for regular admission? What about honors?", "SAT score", "ACT scores", "SAT", "ACT", "What SAT/ACT requirements do you have?","Is a 1400 on the SAT good enough for honors?"],
          "responses": ["We are looking for a 1170 on the SAT or a 24 on the ACT for regular admission. For honors admission, while we have no specific cut-off, the average (superscored) test scores in our most recent cohort- 1460 on the SAT and 32 on the ACT.\nCOVID- Yeshiva University has always taken a holistic approach when considering applicants for admission. We request and carefully review all the information, academic, and social, that is submitted to us by students and their schools. Grades and standardized tests along with extra-curricular activities, community involvement and the personal interview all support our efforts to get to know each applicant and come to a decision based on the understanding that we want our students to succeed at YU. As a result of the challenges students face in fulfilling the requirement of submitting standardized test scores due to Covid-19, Yeshiva University will adopt a one year test optional policy for 2021 high school graduates applying to university. This will be true for both general admission and honors applicants. Details related to additional information or input on each applicant will be posted along with the new admission application mid-summer. Our emphasis on the whole student as well as our commitment to the student’s success remains unchanged. We welcome any questions you may have regarding this or any other admissions related topic."],
