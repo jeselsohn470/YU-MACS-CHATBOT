@@ -30,7 +30,7 @@ After this, we create the chat data set and train the data by passing it through
 
 model.py is the code which creates the model for the chatbot. 
 
-In chat.py, the chat function is implemented. If the model can classify the question into one of the tags with a probability of at least 75 percent, then the bot returns the response from that tag. Otherwise, the bot will return, "I'm sorry, I do not know the answer to that question." 
+In chat.py, the chat function is implemented. If the model can classify the question into one of the tags with a probability of at least 80 percent, then the bot returns the response from that tag. Otherwise, the bot will return, "I'm sorry, I do not know the answer to that question." 
 
 
 
