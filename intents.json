@@ -5,8 +5,13 @@
          "context_set": ""
         },
         {"tag": "what is love",
-         "patterns": ["Wat is love"],
+         "patterns": ["What is love"],
          "responses": ["Baby don't hurt me. Don't hurt me"],
+         "context_set": ""
+        },
+        {"tag": "I love you",
+         "patterns": ["I love you"],
+         "responses": ["I love you too"],
          "context_set": ""
         },
         {"tag": "SAT",
